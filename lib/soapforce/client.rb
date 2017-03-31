@@ -109,7 +109,7 @@ module Soapforce
 
       # If a session_id/server_url were passed in then invoke get_user_info for confirmation.
       # Method missing to call_soap_api
-      result = self.get_user_info if options[:session_id]
+      # result = self.get_user_info if options[:session_id]
 
       result
     end
